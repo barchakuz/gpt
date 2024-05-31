@@ -21,6 +21,31 @@
     line-height: 75px;
 }
 
+.gpt3__footer-links_div .button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.gpt3__footer-links_div .button :hover {
+    border: 1px solid yellowgreen;
+}
+
+.git{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+}
 .gpt3__footer-btn {
     display: flex;
     justify-content: center;
@@ -66,7 +91,7 @@
 img {
     width: 118px;
     height: 100px;
-
+    
     margin-bottom: 1rem;
 }
 

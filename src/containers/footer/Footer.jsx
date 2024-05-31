@@ -1,6 +1,8 @@
 import React from 'react'
 import './footer.css'
-import gpt3Logo from '../../assets/Logo2.png';
+import gpt3Logo from '../../assets/H1.png';
+import git from '../../assets/Git.png';
+
 function Footer() {
   return (
    <>
@@ -19,11 +21,10 @@ function Footer() {
         <p>Behroze Aslam, <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+      <img className='git' src={git} alt="git_logo" />
+
+      <a className='button' href="https://github.com/barchakuz/gpt" target="_blank">Source Code</a>
+
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Company</h4>
