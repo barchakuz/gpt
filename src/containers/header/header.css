@@ -20,7 +20,7 @@
     line-height: 75px;
     letter-spacing: -0.04em;
 }
-
+.response p,
 .gpt3__header-content p {
     font-family: var(--font-family);
     font-weight: 400;
@@ -165,4 +165,11 @@
         font-size: 12px;
         line-height: 16px;
     }
+}
+.response {
+    border: 2px solid #FF4820;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 2%;
 }
